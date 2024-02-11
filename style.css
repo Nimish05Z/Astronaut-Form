@@ -1,0 +1,96 @@
+*{
+    margin-top: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    }
+    body{
+        border: 2px solid red;
+        height: 100vh;
+        background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png);
+        background-size: 100% 100%;
+    }
+    #ast1{
+        height: 500px;
+        position: absolute;
+        top:100px;
+        left:50px;
+        animation-name: floating1;
+        animation-duration:1.2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in;
+    }
+    #ast2{
+        height:400px;
+        position:absolute;
+        left:400px;
+        top:250px;
+        animation-name: floating2;
+        animation-duration:1.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in;
+    }
+    
+    @keyframes floating1{
+        from
+        {
+            top:5%;
+            
+        }
+        to
+        {
+            top: 22%;
+        }   
+    }
+    
+    @keyframes floating2{
+        from
+        {
+            top:20%;
+        }
+        to{
+            top: 41%;
+            left: 20%; 
+        }
+        
+    }
+    
+    form{
+        height:550px;
+        width:450px;
+        border: 16px solid rgb(255, 208, 136);
+        position:absolute;
+        right: 7%;
+        top: 10%;
+        background-color: beige;
+        padding: 20px 70px 20px 50px;
+        text-transform: capitalize;
+        
+    }
+    .inline-block-ele{
+        display:block;
+        
+    }
+    h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .input-ele{
+        width: 340px;
+        height: 30px
+    }
+    label{
+        margin:20px 0 2px;
+        height: 20px;
+        
+    }
+    #button{
+        margin:10px 80px;
+        height: 40px;
+        width: 200px;
+        background-color:rgb(255, 208, 136);
+        border-radius: 20px;
+        border-color: brown;
+        font-style:oblique;
+    }

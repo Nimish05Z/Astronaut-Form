@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Tour</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <img alt="Astronaut1" id="ast1" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/space-man-1%5B1%5D.png">
+    <img alt="Astronaut2" id="ast2" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/space-man-2%5B1%5D.png">
+    <form id="form" action="">
+        <h1>Rocket Around The Moon</h1>
+        
+        <label for="name" class="inline-block-ele">Name</label>
+        <input type="text" id="name" name="name" class="input-ele" placeholder="Name">
+        
+        <label for="country" class="inline-block-ele">Departure Country</label>
+        <select name="country" id="country" class="input-ele">
+            <option value="">India</option>
+            <option value="">Not India</option>
+        </select>
+
+        <label for="user" class="inline-block-ele">Gmail</label>
+        <input type="email" id="user" name="user" class="input-ele">
+
+        <label for="pass" class="inline-block-ele">Password</label>
+        <input type="password" id="pass" name="pass" class="input-ele">
+
+        <label class="inline-block-ele">Do you want to rent a Space Suit?</label>
+
+        <input type="radio" name="radio-button" id="yes">   
+        <label for="yes">Obviously, Yes</label>
+        <input type="radio" name="radio-button" id="no">
+        <label for="no">No, I want to Die</label>
+
+        <input id="button" type="submit" value="Take us to Space">
+
+    </form>
+</body>
+</html>
